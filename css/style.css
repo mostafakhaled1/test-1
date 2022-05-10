@@ -2,26 +2,26 @@
     margin: 0;
     padding: 0;
 }
+/* end frame */
 .home
 {
     height: 100vh;
-    background-image: url(../image/home/hero-bg.jpg);
-    background-size: cover;
+    background-color: #f1f1f1;
 }
-.bg-danger {
-    --bs-bg-opacity: 0;
-}
-.about-item
+.navbar
 {
-background-color: #f1f1f1;
-box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.27),-2px -2px 1px rgba(0, 0, 0, 0.27);
-padding: 30px;
+    background-color:#333 ;
 }
-.home-text
-{
-    height: 100%;
-}
-.home-text h1{
-    font-size: 4.5rem;
+.navbar-dark .navbar-nav .nav-link {
     color: #fff;
+}
+.active
+{
+    color: #f25454 !important;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #f25454 !important;
+}
+.carousel .slide .carousel-fade {
+    height: 100%;
 }
