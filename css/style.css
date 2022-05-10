@@ -11,19 +11,16 @@
 .bg-danger {
     --bs-bg-opacity: 0;
 }
-
 .about-item
 {
 background-color: #f1f1f1;
 box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.27),-2px -2px 1px rgba(0, 0, 0, 0.27);
-box-shadow: ;
 padding: 30px;
 }
 .home-text
 {
     height: 100%;
 }
-
 .home-text h1{
     font-size: 4.5rem;
     color: #fff;
