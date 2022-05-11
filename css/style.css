@@ -25,3 +25,71 @@
 .carousel .slide .carousel-fade {
     height: 100%;
 }
+.parent {
+    width: 100%;
+    background-color: rgb(243, 218, 209);
+}
+
+.parent .projects {
+    width: 90%;
+    margin: auto;
+}
+
+.parent .projects h3 {
+    color: coral;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.parent .projects .item {
+    width: 33.333%;
+    padding: 20px;
+    float: left;
+    text-align: center;
+
+}
+
+.parent .projects .item .inner {
+    background-color: black;
+    padding: 20px;
+    position: relative;
+    transition: transform 1s;
+}
+
+.parent .projects .item img {
+    width: 90%;
+}
+
+.parent .projects .item .im {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.parent .projects .item .inner:hover .im {
+    opacity: 1;
+}
+
+.parent .projects .item .inner:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width:767px) {
+
+    .parent .projects .item {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:968px) and (min-width:768px) {
+    .parent .projects .item {
+        width: 50%;
+    }
+}
